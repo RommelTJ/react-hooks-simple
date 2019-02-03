@@ -2,6 +2,8 @@ import React from 'react';
 
 class App extends React.Component {
 
+    state = { resource: 'posts' };
+
     render() {
         return (
             <div>
@@ -9,6 +11,7 @@ class App extends React.Component {
                     <button>Posts</button>
                     <button>Todos</button>
                 </div>
+                {this.state.resource}
             </div>
         );
     }
