@@ -15,7 +15,6 @@ class App extends React.Component {
                     <button onClick={() => this.onButtonClick('posts')} >Posts</button>
                     <button onClick={() => this.onButtonClick('todos')}>Todos</button>
                 </div>
-                {this.state.resource}
             </div>
         );
     }
