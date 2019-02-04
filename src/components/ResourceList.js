@@ -10,7 +10,7 @@ const ResourceList = () => {
         this.setState({ resources: response.data });
     };
 
-    return <div>{this.state.resources.length}</div>;
+    return <div>{resources.length}</div>;
 };
 
 export default ResourceList;
