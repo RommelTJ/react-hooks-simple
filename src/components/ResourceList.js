@@ -7,7 +7,7 @@ const ResourceList = () => {
 
     const fetchResource = async () => {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/${this.props.resource}`);
-        this.setState({ resources: response.data });
+        setResources({ resources: response.data });
     };
 
     return <div>{resources.length}</div>;
