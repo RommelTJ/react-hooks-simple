@@ -11,7 +11,7 @@ class ResourceList extends React.Component {
     }
 
     render() {
-        return <div>{this.props.resource}</div>;
+        return <div>{this.state.resources.length}</div>;
     }
 
 }
