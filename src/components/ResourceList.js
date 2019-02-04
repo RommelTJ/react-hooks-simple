@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const ResourceList = () => {
+const ResourceList = ({ resource }) => {
 
     const [resources, setResources] = useState([]);
 
